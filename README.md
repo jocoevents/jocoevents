@@ -1,16 +1,34 @@
-# React + Vite
+# JoCo Events
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This site is built with React + Vite and is configured to deploy to GitHub Pages.
 
-Currently, two official plugins are available:
+## Deploy to GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Push this repo to GitHub.
+2. In GitHub, open **Settings > Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. Push to `main` (or run the workflow manually from the Actions tab).
 
-## React Compiler
+The workflow file is at `.github/workflows/deploy.yml`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Important repo-name setting
 
-## Expanding the ESLint configuration
+The Vite base path is configured in `vite.config.js`:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `const repoName = 'jocoevents'`
+
+If your GitHub repository name is different, update this value to match the repo name exactly so assets load correctly on Pages.
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
