@@ -32,29 +32,6 @@ function DecorPrivatePage() {
         </div>
       </SectionBlock>
 
-      {decorContent.featureBlocks.map((feature) => (
-        <SectionBlock key={feature.title} className="decor-feature-block">
-          <div className="decor-feature-row">
-            <div className="decor-feature-image-wrap">
-              <img src={feature.image} alt={feature.title} loading="lazy" width="800" height="1066" />
-            </div>
-            <article className="decor-feature-content">
-              <h2>{feature.title}</h2>
-              {feature.copy.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-            </article>
-            <div className="decor-feature-image-wrap">
-              {feature.extraImage ? (
-                <img src={feature.extraImage} alt={`${feature.title} detail`} loading="lazy" width="800" height="1066" />
-              ) : (
-                <img src={feature.image} alt={`${feature.title} detail`} loading="lazy" width="800" height="1066" />
-              )}
-            </div>
-          </div>
-        </SectionBlock>
-      ))}
-
       <SectionBlock className="decor-planning-section">
         <div className="decor-planning-row">
           <div className="contact-panel decor-planning-copy">

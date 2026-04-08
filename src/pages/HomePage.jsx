@@ -37,11 +37,11 @@ function HomePage() {
           <div className="home-about-copy">
             <h2>About us</h2>
             <p>
-              Planning a birthday, bridal shower, baby shower, engagement, wedding, proposal, corporate party,
+              Planning a birthday, bridal shower, baby shower, engagement, wedding, proposal, corporate party
               or any special event? Let JO &amp; CO. Events bring your vision to life with your loved ones!
             </p>
             <p>
-              From stunning balloon arches &amp; customized backdrops to engraved keepsake boxes - every detail is
+              From stunning balloon arches &amp; customized backdrops to engraved keepsake boxes – every detail is
               handled with love and creativity.
             </p>
             <Link className="btn" to="/about-us">
