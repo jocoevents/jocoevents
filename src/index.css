@@ -424,6 +424,52 @@ p {
   justify-self: center;
 }
 
+.section-block.keepsakes-intro .container,
+.section-block.keepsakes-services .container {
+  max-width: var(--content-width);
+}
+
+.section-block.keepsakes-intro {
+  background: var(--bg-tint);
+}
+
+.keepsakes-intro-shell {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.keepsakes-title {
+  font-size: 4.16rem;
+  margin-top: 2.748rem;
+  margin-bottom: 1.016rem;
+  color: var(--heading);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.keepsakes-services-copy,
+.section-block.keepsakes-services h2,
+.keepsakes-service-card .service-content {
+  text-align: center;
+}
+
+.keepsakes-cards-grid {
+  margin-top: max(2em, 20px);
+}
+
+.keepsakes-services-cta {
+  text-align: center;
+  margin-top: max(1.65em, 16px);
+}
+
+.section-block.keepsakes-intro .btn,
+.section-block.keepsakes-services .btn {
+  border-radius: 0.2em;
+}
+
 .decor-planning-row {
   display: grid;
   grid-template-columns: 1.05fr 1fr;
@@ -972,6 +1018,12 @@ p {
     margin-bottom: 0.93066667rem;
   }
 
+  .keepsakes-title {
+    font-size: 3.31rem;
+    margin-top: 2.492rem;
+    margin-bottom: 0.93066667rem;
+  }
+
   .contact-subtitle {
     font-size: 2.03rem;
   }
@@ -1065,6 +1117,12 @@ p {
   }
 
   .contact-page-title {
+    font-size: 2.88rem;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+  }
+
+  .keepsakes-title {
     font-size: 2.88rem;
     margin-top: 0.8em;
     margin-bottom: 0.3em;

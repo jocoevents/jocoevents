@@ -3,6 +3,7 @@ export const navItems = [
   { label: 'About Us', path: '/about-us' },
   { label: 'Wedding Services', path: '/wedding-services' },
   { label: 'Decor and Private Events Services', path: '/decor-and-private-events-services' },
+  { label: 'Personalized Keepsakes', path: '/personalized-keepsakes' },
   { label: 'Gallery', path: '/gallery' },
   { label: 'Contact', path: '/contact' },
 ];
@@ -305,6 +306,39 @@ export const decorContent = {
     ctaLabel: 'Get a quote',
     ctaHref: '/contact',
   },
+};
+
+export const keepsakesContent = {
+  heading: 'Keepsakes That Last',
+  intro:
+    'Personalized keepsake boxes are a meaningful way to celebrate life’s most important moments, from weddings and birthdays to special occasions and corporate milestones. Thoughtfully designed and customized with names, dates, or messages, each box becomes a unique reflection of the memory it holds—whether it’s wedding vows, birthday wishes, event mementos, or professional achievements.',
+  primaryCtaLabel: "Let's get started",
+  primaryCtaHref: '/contact',
+  servicesHeading: 'Services',
+  servicesIntro:
+    'Our keepsake services transform meaningful moments into beautifully crafted, personalized pieces designed to last a lifetime. Whether for weddings, corporate milestones, or personal celebrations, each creation is thoughtfully made to preserve your most cherished memories.',
+  serviceCards: [
+    {
+      title: 'Bridal Keepsakes',
+      description: 'Personalized gifts for weddings and special moments.',
+      image:
+        'https://primary.jwwb.nl/public/j/d/b/temp-upppznwjmisgwqqgzrnr/image-high-t8hk5m.png?enable-io=true&enable=upscale&crop=1.4286%3A1&width=800',
+    },
+    {
+      title: 'Corporate Keepsakes',
+      description: 'Custom-branded gifts.',
+      image:
+        'https://primary.jwwb.nl/public/j/d/b/temp-upppznwjmisgwqqgzrnr/img_8437-high.jpg?enable-io=true&enable=upscale&crop=1.4286%3A1&width=800',
+    },
+    {
+      title: 'Personal Keepsakes',
+      description: 'Thoughtful, one-of-a-kind gifts for special moments.',
+      image:
+        'https://primary.jwwb.nl/public/j/d/b/temp-upppznwjmisgwqqgzrnr/img_9510-high.jpg?enable-io=true&enable=upscale&crop=1.4286%3A1%2Coffset-y59&width=800',
+    },
+  ],
+  secondaryCtaLabel: 'Contact us for a quote',
+  secondaryCtaHref: '/contact',
 };
 
 export const galleryIntro = {

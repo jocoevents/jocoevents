@@ -5,6 +5,7 @@ import ContactPage from './pages/ContactPage';
 import DecorPrivatePage from './pages/DecorPrivatePage';
 import GalleryPage from './pages/GalleryPage';
 import HomePage from './pages/HomePage';
+import PersonalizedKeepsakesPage from './pages/PersonalizedKeepsakesPage';
 import WeddingServicesPage from './pages/WeddingServicesPage';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about-us" element={<AboutPage />} />
         <Route path="/wedding-services" element={<WeddingServicesPage />} />
         <Route path="/decor-and-private-events-services" element={<DecorPrivatePage />} />
+        <Route path="/personalized-keepsakes" element={<PersonalizedKeepsakesPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
